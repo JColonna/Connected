@@ -1,0 +1,49 @@
+#grids{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "carousel carousel carousel"
+    "nosotros nosotros nosotros"
+    "servicios servicios servicios"
+    "contacto contacto contacto"
+    "footer footer footer";
+    grid-template-columns: auto;
+    grid-template-rows:3% 26% 10% auto 20%  1%;
+    height: 350vh;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    
+    
+}
+
+.header{
+    grid-area: header;
+    
+    
+}
+
+.carrusel{
+    grid-area: carousel;
+    
+}
+
+.nosotros{
+    grid-area: nosotros;
+    
+
+}
+
+.servicios{
+    grid-area: servicios;
+    
+}
+
+.footer{
+    grid-area: footer;
+    
+}
+
+#contacto{
+    grid-area: contacto;
+    
+}

@@ -1,0 +1,133 @@
+@import"grids";
+@import"flex";
+/*Reseteo*/
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    background-color: $colorCuatro;
+    
+}
+
+/* Header*/ 
+
+.logo {
+     img{
+        height: 150px;
+        width: 250px;
+         margin: 1px 0 5px 10px;
+         padding: 0 0 30px 0;
+     } 
+}
+header{
+    background-color: $colorDos;
+    color:$colorTres;
+
+}
+.menu{
+    a{
+        color:$colorTres;
+    }
+}
+
+/* Section */ 
+.carrusel{
+    div{
+        img{
+            height: 100%;
+            max-height: 88vh;
+        }
+
+    }
+}
+/* Nosotros*/
+ .nosotros{
+     color:$colorTres;
+     background-color:$colorDos;
+     text-align: center;
+     padding-top: 2%;
+ }
+
+/*Main*/ 
+main {
+    background-color:$colorCuatro;
+    h2{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 700;
+        font-style: inherit;
+        
+    }
+    ul{
+        
+        list-style:url(/img/arrow-right-square.svg);}
+}
+.imgServicios{
+    height: 30%;
+    width: 40%;
+    max-height: 300px;
+    margin-top: 3%;
+    
+}
+.imgServicios1{
+    @extend.imgServicios;
+    margin-top: 8%;
+}
+
+.textoServicios{
+    margin-top: 6%;
+}
+.textoServicios1{
+    @extend .textoServicios;
+    margin-right: 16%;
+}
+
+
+
+/*Contacto*/
+#contacto{
+    background-color: $colorDos;
+    color:$colorTres;
+    h3{
+        margin-top: 1%;
+        text-align: center;}
+}
+form{
+    padding: 5% 0 0 30%;
+    p{
+        width: 20%;
+    }
+}
+
+.botonA{
+    padding: 2% 15% 2% 15%;
+    margin: 2% 0% 2% 3%;
+}
+.botonB{
+    @extend .botonA;
+    color: black;
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+}
+.margin{
+    margin-bottom: 7%;
+}
+/* Footer */ 
+footer {
+    color:$colorDos;
+    ul{
+        margin-right: 5%;
+        
+    }
+}
+
+
+        
+    
+

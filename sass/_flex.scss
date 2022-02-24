@@ -1,0 +1,38 @@
+@import"colores";
+.contenidoHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+.menu {
+    margin: 1% 10% 0 0;
+    display: flex;
+    
+     
+
+    a{
+        text-decoration: none;
+        color: $colorUno;
+        margin: 0 14% 0 0;       
+        
+        
+    }
+}
+.flexLogo{
+    display: flex;
+    h1{
+        font-size: 100%;
+    }
+}
+
+.flexMain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexContacto{
+    display: flex;
+    justify-content: space-around;
+
+}
